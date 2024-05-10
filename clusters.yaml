@@ -1,0 +1,13 @@
+---
+  test:
+    home: "/opt/kafka_2.13-3.2.0"
+    bootstrapServer:
+      - 192.168.56.105:9092
+    saslMechanism: "PLAIN"
+    securityProtocol: "SASL_PLAINTEXT"
+    user: "admin"
+    password: "password"
+    sshUser: "sshUser"
+    sshPassword: "sshPassword"
+    #sshKeyPath: "/home/obransible/.ssh/id_rsa"
+    replicationFactor: 1
